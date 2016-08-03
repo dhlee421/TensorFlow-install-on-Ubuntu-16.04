@@ -25,9 +25,11 @@ sudo apt-get upgrade
 sudo apt-get install nvidia-current nvidia-settings
 ```
 <br />
-[System Settings]-[Software & Updates]-[Additional Drivers]<br />
-+— NVIDIA Corporation:Unknown<br />
-+— Using NVIDIA binary driver-version 367.35 from nvidia-367(open source)<br />
+```
+[System Settings]-[Software & Updates]-[Additional Drivers]
++— NVIDIA Corporation:Unknown
++— Using NVIDIA binary driver-version 367.35 from nvidia-367(open source)
+```
 <br />
 **Install CUDA and cuDNN**<br />
 `sudo apt-get install libglu1-mesa libxi-dev libxmu-dev libglu1-mesa-dev`<br />
