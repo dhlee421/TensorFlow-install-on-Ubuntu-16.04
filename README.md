@@ -1,3 +1,12 @@
+CPU: 6th i7 Skylake 6700<br />
+Mother Board: Gigabyte Z170X-DESIGNARE<br />
+Graphic Card: GEFORCE GTX-1080 x2<br />
+Memory: 32G<br />
+SSD: 256×2<br />
+HDD: 2Tx2<br />
+<br />
+OS: Linux ( Ubuntu 16.04)<br />
+<br />
 # TensorFlow Setup on Ubuntu 16.04
 
 **After Install Linux, Upgrade the packages** <br />
