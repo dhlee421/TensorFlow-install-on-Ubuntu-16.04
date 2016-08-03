@@ -50,7 +50,7 @@ sudo apt-get install oracle-java8-installer<br />
 <br />
 export PATH=/home/oneway/bin:$PATH<br />
 edit .bashrc<br />
-add following line to end of the file<br />
+__add following line to end of the file__<br />
 source /home/oneway/.bazel/bin/bazel-complete.bash<br />
 <br />
 Install early version of gcc/g++<br />
