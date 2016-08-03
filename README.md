@@ -22,7 +22,7 @@ tar -xvzf cudnn-8.0-linux-x64-v5.0-ga.tgz<br />
 sudo cuda/include/cudnn.h /usr/local/cuda/include/<br />
 sudo cp cuda/include/cudnn.h /usr/local/cuda/include/<br />
 sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64/<br />
-sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*<br />
+sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn(star)<br />
 <br />
 export PATH=/usr/local/cuda/bin:$PATH<br />
 export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH<br />
