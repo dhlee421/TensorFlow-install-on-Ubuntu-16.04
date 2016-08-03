@@ -1,10 +1,9 @@
 # TensorFlow Setup on Ubuntu 16.04
 
 **After Install Linux, Upgrade the packages** <br />
-`
-sudo apt-get update <br />
-sudo apt-get upgrade<br />
-`
+`sudo apt-get update`
+`sudo apt-get upgrade`
+
 **Install nvidia device driver**<br />
 sudo apt-add-repository -y ppa:graphics-drivers/ppa<br />
 sudo apt-get update<br />
