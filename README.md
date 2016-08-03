@@ -18,10 +18,12 @@ sudo apt-get upgrade
 ```
 
 **Install nvidia device driver**<br />
-`sudo apt-add-repository -y ppa:graphics-drivers/ppa`<br />
-`sudo apt-get update`<br />
-`sudo apt-get upgrade`<br />
-`sudo apt-get install nvidia-current nvidia-settings`<br />
+```
+sudo apt-add-repository -y ppa:graphics-drivers/ppa
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install nvidia-current nvidia-settings
+```
 <br />
 [System Settings]-[Software & Updates]-[Additional Drivers]<br />
 +— NVIDIA Corporation:Unknown<br />
