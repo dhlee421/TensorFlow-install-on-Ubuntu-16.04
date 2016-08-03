@@ -1,10 +1,10 @@
 # TensorFlow Setup on Ubuntu 16.04
 
-After Install Linux, Upgrade the packages
+**After Install Linux, Upgrade the packages**
 sudo apt-get update
 sudo apt-get upgrade
 
-Install nvidia device driver
+**Install nvidia device driver**
 sudo apt-add-repository -y ppa:graphics-drivers/ppa
 sudo apt-get update
 sudo apt-get upgrade
@@ -14,7 +14,7 @@ sudo apt-get install nvidia-current nvidia-settings
 +— NVIDIA Corporation:Unknown
 +— Using NVIDIA binary driver-version 367.35 from nvidia-367(open source)
 
-Install CUDA and cuDNN
+**Install CUDA and cuDNN**
 sudo apt-get install libglu1-mesa libxi-dev libxmu-dev libglu1-mesa-dev
 sudo sh cuda_8.0.27_linux.run –override
 
@@ -27,7 +27,7 @@ sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
 export PATH=/usr/local/cuda/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 
-Python Module install
+**Python Module install**
 sudo apt-get install swig
 
 sudo apt-get install python3-pip
